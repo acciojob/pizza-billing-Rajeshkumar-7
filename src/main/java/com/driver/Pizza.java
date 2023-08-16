@@ -17,10 +17,10 @@ public class Pizza {
         // your code goes here
         if(isVeg){
             price = 300;
-            bill = "Base Price Of The Pizza: 300 \n";
+            bill = "Base Price Of The Pizza: 300\n";
         }else{
             price = 400;
-            bill = "Base Price Of The Pizza: 400 \n";
+            bill = "Base Price Of The Pizza: 400\n";
         }
         extraCheese = false;
         extraToppings = false;
@@ -35,7 +35,7 @@ public class Pizza {
         // your code goes here
         if(!extraCheese){
             price += 80;
-            bill += "Extra Cheese Added: 80 \n";
+            bill += "Extra Cheese Added: 80\n";
             extraCheese = true;
         }
     }
@@ -45,10 +45,10 @@ public class Pizza {
         if(!extraToppings){
             if(isVeg){
                 price += 70;
-                bill += "Extra Toppings Added: 70 \n";
+                bill += "Extra Toppings Added: 70\n";
             }else{
                 price += 120;
-                bill += "Extra Toppings Added: 120 \n";
+                bill += "Extra Toppings Added: 120\n";
             }
             extraToppings = true;
         }
@@ -58,7 +58,7 @@ public class Pizza {
         // your code goes here
         if(!paperBag){
             price += 20;
-            bill += "Paperbag Added: 20 \n";
+            bill += "Paperbag Added: 20\n";
             paperBag = true;
         }
 
